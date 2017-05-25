@@ -1,5 +1,4 @@
 <template>
-
   <div id="hello">
     <div id="app">
       <md-toolbar>
