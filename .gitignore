@@ -1,0 +1,5 @@
+.idea/
+.yarnclean
+dist/build.css
+dist/build.js
+node_modules/
