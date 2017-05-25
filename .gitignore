@@ -1,5 +1,6 @@
-.idea/
-.yarnclean
-dist/build.css
+.DS_Store
+node_modules
 dist/build.js
-node_modules/
+dist/build.css
+yarn-error.log
+npm-debug.log
