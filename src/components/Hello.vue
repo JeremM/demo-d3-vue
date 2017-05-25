@@ -1,5 +1,17 @@
 <template>
   <div id="hello">
+    <div id="app">
+      <md-toolbar>
+        <div class="md-title"><h1>Welcome Home</h1></div>
+        <div class="md-avatar-icon md-large">
+          <md-icon>home</md-icon>
+        </div>
+      </md-toolbar>
+
+      <div class="main-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, rerum? Error sunt, aperiam dolores, atque expedita molestiae tenetur. Quis eveniet accusamus velit explicabo adipisci reiciendis modi eaque quas, officia excepturi.</p>
+      </div>
+    </div>
     <img src="http://vuejs.org/images/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
