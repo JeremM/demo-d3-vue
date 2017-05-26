@@ -1,0 +1,7 @@
+version: '2'
+services:
+  front:
+    image: vps242218.ovh.net:5000/demo-front-vue:latest
+    ports:
+      - "80:80"
+restart: always
