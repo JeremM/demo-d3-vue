@@ -48,7 +48,7 @@ mv ~/tmp-init/demo-d3-vue/* ~/WebstormProjects/demo-d3-vue/
 
 ``` bash
 # install dependencies
-yarn
+yarn install
 
 # serve with hot reload at localhost:8080
 yarn run dev
