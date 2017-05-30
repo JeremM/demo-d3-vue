@@ -1,7 +1,9 @@
 <template>
-    <div id="content">
-        <citizens v-on:selected="setSelected($event)"></citizens>
-        <citizen :citizen="selectedCitizen"></citizen>
+    <div id="page">
+        <div id="content">
+            <citizens v-on:selected="setSelected($event)"></citizens>
+            <citizen :citizen="selectedCitizen"></citizen>
+        </div>
     </div>
 </template>
 
@@ -13,7 +15,7 @@
     export default{
         name: "citizenspage",
         data(){
-            return {selectedCitizens: {}}
+            return {selectedCitizen: {}}
         },
         components: {citizens, citizen},
         methods: {

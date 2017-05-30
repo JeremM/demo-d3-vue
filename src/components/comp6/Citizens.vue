@@ -14,26 +14,27 @@
     import VueResource from 'vue-resource'
     Vue.use(VueResource)
 
-    export default {
+    export default{
         data () {
             return {
                 citizens: []
             }
         },
         http: {
-            root: "http://localhost:3000"
+            root: 'http://localhost:3000'
         },
         methods: {
-            selectCitizens(citizen){
+            selectCitizen(citizen){
                 this.$emit('selected', citizen)
             }
         },
         mounted() {
-            this.$resource("citizens").get().then((response => {
-                this.citizens = response.data
-            }, (response) => (console.log("erreur", response))))
+            this.$resource('citizens').get().then((response) => {
+                    this.citizens = response.data
+                }, (response) => {
+                    console.log('erreur', response);
+                }
+            )
         }
-
     }
-
 </script>

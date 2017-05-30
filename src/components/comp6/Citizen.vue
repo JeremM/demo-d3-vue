@@ -11,11 +11,9 @@
 
 
 <script>
-
     export default  {
-        props: ["citizens"]
+        props: ["citizen"]
     }
-
 </script>
 
 <style>
