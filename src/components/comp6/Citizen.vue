@@ -1,5 +1,5 @@
 <template>
-    <div id=""citizen>
+    <div id="citizen">
         <table>
             <tr><td><label>ID : </label> {{citizen.id}}</td></tr>
             <tr><td><label>FirstName : </label> {{citizen.firstname}}</td></tr>

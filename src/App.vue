@@ -108,6 +108,9 @@
   import Citizen from './components/comp6/Citizen.vue'
   import CitizensPage from './components/comp6/CitizensPage.vue'
 
+  import Vue from 'vue'
+  Vue.component('citizenspage', CitizensPage);
+
 export default {
   name: 'app',
   components: {
