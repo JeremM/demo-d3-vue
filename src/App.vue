@@ -96,7 +96,7 @@
       </svg>
     </section>
 
-    <citizens firstname="Marge" lastname="Simpson Aussi" age="40"></citizens>
+    <citizenspage></citizenspage>
 
   </div>
 </template>
@@ -104,7 +104,10 @@
 <script>
   //App.vue est le composant principal, qui va appeler tous les autres ensuite
   import Section from './components/compTest/Section.vue'
-  import Citizens from './components/comp4.2/Citizens.vue'
+  import Citizens from './components/comp6/Citizens.vue'
+  import Citizen from './components/comp6/Citizen.vue'
+  import CitizensPage from './components/comp6/CitizensPage.vue'
+
 export default {
   name: 'app',
   components: {
